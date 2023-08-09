@@ -16,5 +16,4 @@ class MovieRepositoryImpl @Inject constructor(private val api : MovieAPI) : Movi
         return api.getMovieDetail(imdbId = imdbId)
     }
 
-
 }
